@@ -18,7 +18,7 @@ public class MyTestParam {
 		for(int i=0;i<params.length/2;i++) {
 			testParams[i]=new MyTestParam(params[temp++], params[temp++]);
 		}
-		System.out.println("此次一共有 "+testParams.length+" 组测试， 各组 测试参数为： "+Arrays.toString(testParams));
+		//System.out.println("此次一共有 "+testParams.length+" 组测试， 各组 测试参数为： "+Arrays.toString(testParams));
 		return testParams;
 	}
 	
